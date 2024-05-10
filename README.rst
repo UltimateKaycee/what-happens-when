@@ -674,6 +674,16 @@ GPU Rendering
   of ``GPU`` massive parallelism for float point calculations required for
   the rendering process.
 
+TCP/IP (Transmission Control Protocol/Internet Protocol)
+----------------------------------------------------------
+TCP/IP is a conceptual framework of communication protocols that uses a layered approach to describe how communication traverses across the network. The layers are; Application layer, Transport layer, Internet Layer, Link layer and the Physical Layer. 
+Following our Google.com example respectively, our web browser which is the application (Application layer) makes the request to the web server as we hinted earlier. 
+At the Transport layer, TCP makes a reliable connection between our computer and the web server. This layer also segments our Google.com request into smaller units, ensuring that they are transmitted in order, correctly and reliably.
+At the Internet layer, IP will be responsible for the placement of source and destination addressing scheme to ensure correct delivery and routing the segments of data across the internet from our computer to Google’s web server.
+The Link layer takes care of the transmission of our request now known as data frames, over the physical network which can be Wi-Fi or Ethernet. It then adds another addressing scheme known as MAC address to identify the exact device for which the frame is destined.
+The Physical layer describes the physical hardware devices that help to transmit and receive our Google website request in the form optical and electrical signals. E.g., switches, cables, etc.
+-----------------------------------------------------------
+
 
 Window Server
 -------------
